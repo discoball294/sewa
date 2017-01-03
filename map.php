@@ -1,7 +1,7 @@
 <?php
 session_start();
-require_once "config/connect.php";
-require_once "config/function.php";
+require_once "Class/Database.php";
+require_once "Class/function.php";
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -130,8 +130,8 @@ require_once "config/function.php";
 </tr>
 <tr>
             <?php
-                require_once "config/connect.php";
-                require_once "config/function.php";
+                require_once "Class/Database.php";
+                require_once "Class/function.php";
                 
      $queri="Select * From barang" ;  //menampikan SEMUA data dari tabel siswa
 

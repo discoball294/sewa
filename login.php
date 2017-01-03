@@ -13,8 +13,8 @@ ob_start();
 
 <?php
 
-require_once "config/connect.php";
-require_once "config/function.php";
+require_once "Class/Database.php";
+require_once "Class/function.php";
 $username = $_POST["user"];
 $password = $_POST["pass"];
 $query = 'SELECT * FROM user';

@@ -11,8 +11,8 @@
 
     
     <?php
-require_once "config/connect.php";
-require_once "config/function.php";
+require_once "Class/Database.php";
+require_once "Class/function.php";
     session_start();
     
 $nama = $_POST['nama'];
